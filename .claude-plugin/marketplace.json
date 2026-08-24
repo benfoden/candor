@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "candor",
+  "description": "candor — fidelity auditing for Claude Code. Does the thing you shipped still agree with the thing it came from?",
+  "owner": {
+    "name": "Ben Foden",
+    "url": "https://github.com/benfoden"
+  },
+  "plugins": [
+    {
+      "name": "candor",
+      "description": "Fidelity audit: `/candor <output> <source>` fans two fresh-context subagents at the six CANDOR failure modes with a 2/4 priority bias, merges findings into one severity-sorted table, and returns a ship / ship-with-flags / do-not-ship verdict.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

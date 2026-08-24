@@ -1,0 +1,9 @@
+{
+  "name": "candor",
+  "version": "0.1.0",
+  "description": "Fidelity audit of an output against its source, run by fresh-context subagents. Splits the six CANDOR failure modes — Confabulation, Alteration, Neglect, Discord, Overconfidence, Reassignment — across two independent auditors with a 2/4 priority bias: one takes the two highest-base-rate modes (Neglect, Alteration), the other takes the remaining four. The producer cannot audit itself.",
+  "author": {
+    "name": "Ben Foden",
+    "url": "https://github.com/benfoden"
+  }
+}
